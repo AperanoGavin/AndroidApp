@@ -12,7 +12,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="1833dp"
-        android:layout_weight="30">
+        android:layout_weight="30"><!-- si on lui met match il va tout prendre-->
 
         <ImageView
             android:layout_width="match_parent"
@@ -39,16 +39,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:gravity="right"
+
             android:layout_weight="50"
             android:text="Click" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:gravity="left"
+
             android:layout_weight="50"
 
             android:text="Click" />
@@ -58,4 +56,4 @@
 
 
 
-</LinearLayout>
+</LinearLayout><!-- layout gravity deplace le contenu pour un text view par exemple  et le gravity  deplace les leyaouts-->
