@@ -23,9 +23,12 @@
             android:src="@drawable/logo" />
 
         <TextView
-            android:layout_width="919dp"
-            android:layout_height="551dp"
-            android:text="teshhhhnjb kct" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="teshhhhnjbkct"
+            android:layout_gravity="bottom|right"
+
+            />
     </FrameLayout>
     <Button
         android:layout_width="match_parent"
@@ -39,15 +42,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_weight="50"
+            android:layout_weight="1"
             android:text="Click" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_weight="50"
+            android:layout_weight="1"
 
             android:text="Click" />
 
