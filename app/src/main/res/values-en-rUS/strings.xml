@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="popup_title">Question?</string>
+    <string name="popup_message">Do you want leave?</string>
+    <string name="popup_btn_oui">Yes</string>
+    <string name="popup_btn_non">No</string>
+</resources>
