@@ -15,9 +15,10 @@
         android:layout_height="1833dp"
         android:layout_weight="30"><!-- si on lui met match il va tout prendre-->
 
-        <ImageView
+        <ImageButton
+            android:id="@+id/imgg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="625dp"
             android:scaleType="centerCrop"
 
 
